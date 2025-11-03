@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-29 00:00:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "from_user",
+  "to_user",
+  "project",
+  "rating",
+  "comment",
+  "created_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "from_user",
+   "fieldtype": "Link",
+   "label": "From User",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_user",
+   "fieldtype": "Link",
+   "label": "To User",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Int",
+   "label": "Rating",
+   "reqd": 1,
+   "description": "Rating from 1 to 5"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Text Editor",
+   "label": "Comment"
+  },
+  {
+   "fieldname": "created_on",
+   "fieldtype": "Datetime",
+   "label": "Created On",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-29 00:00:00",
+ "modified_by": "Administrator",
+ "module": "Freelancer Marketplace",
+ "name": "Review",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-29 00:00:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sender",
+  "receiver",
+  "content",
+  "read",
+  "created_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "sender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sender",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "receiver",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Receiver",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "content",
+   "fieldtype": "Long Text",
+   "label": "Content",
+   "reqd": 1
+  },
+  {
+   "fieldname": "read",
+   "fieldtype": "Check",
+   "default": "0",
+   "label": "Read"
+  },
+  {
+   "fieldname": "created_on",
+   "fieldtype": "Datetime",
+   "label": "Created On",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-29 00:00:00",
+ "modified_by": "Administrator",
+ "module": "Freelancer Marketplace",
+ "name": "Message",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
