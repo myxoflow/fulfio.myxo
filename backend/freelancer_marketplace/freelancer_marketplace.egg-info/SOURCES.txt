@@ -1,0 +1,8 @@
+setup.py
+freelancer_marketplace/__init__.py
+freelancer_marketplace/hooks.py
+freelancer_marketplace.egg-info/PKG-INFO
+freelancer_marketplace.egg-info/SOURCES.txt
+freelancer_marketplace.egg-info/dependency_links.txt
+freelancer_marketplace.egg-info/not-zip-safe
+freelancer_marketplace.egg-info/top_level.txt

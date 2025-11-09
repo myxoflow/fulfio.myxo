@@ -12,9 +12,6 @@ interface JobsResponse {
   data: Job[]
 }
 
-interface JobResponse {
-  data: Job
-}
 
 export const jobsAPI = {
   getJobs: (filters: Record<string, any> = {}): Promise<AxiosResponse<JobsResponse>> =>

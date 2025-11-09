@@ -1,5 +1,0 @@
-include MANIFEST.in
-include requirements.txt
-include README.md
-recursive-include freelancer_marketplace *.py *.js *.json *.css *.html *.md
-recursive-exclude * *.pyc
